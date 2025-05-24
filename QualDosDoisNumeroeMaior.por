@@ -1,17 +1,13 @@
 programa
 {
-	
 	funcao inicio()
-	{ 
+	{
 	real n1, n2
-	
 	escreva("\nDigite n1: ")
 	  leia(n1)
 	escreva("\nDigite n2: ")
 	  leia(n2)
-	  
 	limpa()
-	
 	se (n1>n2)
 	  escreva("O ",n1, " é maior que o ",n2)
 	se (n2>n1)
